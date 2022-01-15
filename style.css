@@ -321,6 +321,9 @@ nav a {
     position: relative;
     left: 36%;
 }
+.contact {
+    display: none;
+}
 /* small screen */
 @media screen and (max-width:660px){
     nav {
