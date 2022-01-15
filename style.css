@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*DISCLAIMER! codes wriiten can be unprofessional and unclean since I am dumb and still a beginner */
+body {
+    font-family: 'Poppins';
+    width: 100%;
+}
+main {
+    width: 100%;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
+}
+/* sticky nav bar and box shadow */
+nav {
+    display: flex;
+    margin-top: 0px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+    height: 80px;
+    box-shadow: 0 0px 0px 0 rgba(131, 128, 128, 0.2), 0 3px 10px 0 rgba(168, 166, 166, 0.25);
+}
+
+/* styling the list */
+
+nav li{
+    list-style: none;
+    padding: 0px 20px;
+    position:relative;
+    left: 24%;
+    top: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 30px;
+    
+}
+
+nav a {
+    color: dimgrey;
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.logo img{
+    width: 90px;
+    margin-top: 10px;
+   
+}
+.logo {
+    padding-left: 60px;
+}
+.hi {
+    position: relative;
+    left: 50%;
+    color: #39bfbd;
+    border-bottom: 3px solid #39bfbd;
+    display: inline;
+    top: 23px;
+    height: 30px;
+}
+.photo {
+    z-index: 2;
+    position: relative;
+    top: 120px;
+    left: 15%;
+    width: 1000px;
+}
+.member {
+    width: 100%;
+}
+.photo img {
+    height: 440px;
+}
+.text {
+    width: 600px;
+    
+}
+.text p {
+    margin-top: 10px;
+    line-height: 28px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.team-card {
+    width: 100%;
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+@keyframes tansition {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+.photo {
+    animation: transition 0.75s;
+    
+}
+.button {
+    background-color: #39bfbd;
+    width: 200px;
+    padding: 2px;
+    margin-top: 30px;
+    border-radius: 26px;
+    box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+}
+.button:hover {
+    cursor: pointer;
+    transition: all ease 0.2s;
+    background-color:#074443;
+}
+.button p {
+    padding-left: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+.button1 {
+    background-color: #39bfbd;
+    width: 200px;
+    padding: 2px;
+    margin-top: 30px;
+    border-radius: 26px;
+    box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+    position: relative;
+    left: 70px;
+}
+.button1:hover {
+    cursor: pointer;
+    transition: all ease 0.2s;
+    background-color:#074443;
+}
+.button1 p {
+    padding-left: 24px;
+    color: white;
+    
+}
+.team-container {
+    width: 100%;
+}
+.team-card:hover {
+    background-color: whitesmoke;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.team-card1:hover {
+    background-color: whitesmoke;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.team-card2:hover {
+    background-color: whitesmoke;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.team h1 {
+    
+    display: inline;
+    padding-bottom: 10px;
+}
+
+#skills p{
+   color: #39bfbd;
+   font-weight: bold;
+}
+.languages p{
+    color: #39bfbd;
+    font-weight: bold;
+ }
+
+.border i{
+    background-color:whitesmoke;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.html {
+    display: flex;
+    
+}
+.html p {
+    color: black !important;
+    padding-left: 30px;
+    margin-top: 6px;
+}
+.text-for-html {
+    color: dimgray;
+    font-weight: normal;
+    position: relative;
+    top: 13px;
+}
+#skills {
+    display: flex;
+}
+.image {
+  position: relative;
+  left: 230px;
+  top: 40px;
+}
+.ratio {
+    color: white;
+    text-align: right;
+}
+.ratio1 {
+    color: white;
+    text-align: right;
+}
+.ratio2 {
+    color: white;
+    text-align: right;
+}
+.skills {
+    width: 100%;
+}
+.title {
+    text-align: center;
+}
+.button5 {
+    background-color: #39bfbd;
+    width: 160px;
+    border-radius: 26px;
+    padding: 4px;
+    box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+    position: relative;
+    left: 45%;
+}
+.button5 p {
+    padding-left: 24px;
+    color: white;
+    
+}
+.button5:hover {
+    cursor: pointer;
+    transition: all ease 0.2s;
+    background-color:#074443;
+}
+.client-title h1 {
+    text-align: center;
+}
+.client-title p {
+    text-align: center;
+}
+.comment-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    
+}
+
+.comment-card i {
+    color: gold;
+}
+.comment-card p {
+    text-align: center;
+}
+.comment-card {
+    box-shadow: 5px 10px 30px rgba(88, 90, 90, 0.3);
+    width: 350px;
+    margin-left: 90px;
+    background-color: white;
+    height: 360px;
+}
+.icons {
+   margin-left: 120px;
+}
+.see-more {
+    background-color: #39bfbd;
+    display: inline;
+    color: white;
+    padding: 7px;
+    box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+    z-index: 2;
+    margin-left: 120px;
+    position: relative;
+    top: 30px;
+}
+/* small screen */
+@media screen and (max-width:660px){
+    nav {
+        display: none;
+    }
+    .menu {
+        position: relative;
+        left: 20px;
+    }
+    .photo {
+        position: relative;
+        left: 4%;
+        width: 200px;
+        height: 900px;
+    }
+    .text {
+        width: 400px;
+        
+    }
+    .text br {
+        display: none;
+    }
+    .dropdown li {
+        list-style: none;
+    }
+    .dropdown img {
+        width: 100px;
+        padding-top: 10px;
+        height: 70px;
+    }
+    .dropbtn {
+        font-size: 26px;
+        padding-top: 25px;
+        
+    }
+    .dropbtn:hover {
+       
+        cursor: pointer;
+    }
+    .dropdown {
+        display: flex;
+        margin-top: 0px;
+        top: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+        background-color: white;
+        height: 80px;
+        box-shadow: 0 0px 0px 0 rgba(131, 128, 128, 0.2), 0 3px 10px 0 rgba(168, 166, 166, 0.25);
+    }
+    .move {
+        padding-left: 300px;
+    }
+    .button {
+       position: relative;
+       left: 100px;
+    }
+    .team {
+        text-align: center;
+    }
+    .text h1 {
+        text-align: center;
+    }
+    .member img {
+        width: 180px;
+        height: 200px;
+        padding-top: 20px;
+        margin-left: 80px;
+    }
+    .team-card {
+        left: 50px;
+        background: white;
+        width: 350px;
+        position: relative;
+        top: 15px;
+        box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+    }
+    .team-card1 {
+        left: 50px;
+        background: white;
+        width: 350px;
+        position: relative;
+        top: 60px;
+        box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+    }
+    .team-card2 {
+        left: 50px;
+        background: white;
+        width: 350px;
+        position: relative;
+        top: 115px;
+        box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+    }
+    .team-container {
+        height: 1450px;
+    }
+    #skills {
+        padding-top: 40px;
+        margin-left: 20px;
+    }
+    .languages {
+        padding-top: 40px;
+        margin-left: 20px;
+
+    }
+    .image {
+        display: none;
+    }
+    .burmese {
+        background-color: #ddd;
+        width: 450px;
+     }
+    .ratio {
+        background-color: #39bfbd;
+        width: 410px;
+     }
+     .ratio1 {
+        background-color: #39bfbd;
+         width: 320px;
+     }
+     .ratio2 {
+         background-color: #39bfbd;
+         width: 205px;
+     }
+     .text-for-html br {
+         display: none;
+     }
+     .title img {
+         width: 430px;
+         
+     }
+     .button5 {
+         left: 35%;
+     }
+     .comment-card {
+         margin-left: 50px;
+         
+     }
+
+} 
+/* smallest screen */
+@media screen and (max-width:446px){
+    .dropbtn {
+        position: relative;
+        right: 80px;
+    }
+    .team-container {
+        width: 500px;
+    }
+} 
+/* big screen */
+@media screen and (min-width: 660px) {
+    .menu {
+        display: none;
+    }
+    .dropdown {
+        display: none;
+    }
+    nav li:hover {
+        background-color: cyan;
+        cursor: pointer;
+        transition: all ease 0.2s;
+        box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+    }
+    .photo {
+        display: flex;
+        height: 500px;
+    }
+    .text {
+        left: 90px;
+        position: relative;
+        top: 100px;
+    }
+    .team-container {
+        padding-top: 80px;
+        width: 100%;
+    }
+    .team {
+        text-align: center;
+    }
+    .team h1 {
+        border-bottom:4px solid #39bfbd;
+    }
+    .team-card {
+        background: white;
+        width: 350px;
+        position: relative;
+        left: 120px;
+        box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+        
+    }
+    .team-card1 {
+        background: white;
+        width: 350px;
+        position: relative;
+        left: 240px;
+        box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+        padding: 0 20px;
+    }
+    .team-card2 {
+        background: white;
+        width: 350px;
+        position: relative;
+        left: 360px;
+        box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+        padding: 0 20px;
+    }
+    .member img {
+        width: 180px;
+        height: 200px;
+        padding-top: 20px;
+        margin-left: 80px;
+    }
+    .member {
+        display: flex;
+    }
+    #skills {
+        padding-top: 40px;
+        margin-left: 120px;
+    }
+    .languages {
+        padding-top: 80px;
+        margin-left: 120px;
+    }
+    .burmese {
+        background-color: #ddd;
+        width: 900px;
+     }
+     .ratio {
+        background-color: #39bfbd;
+        width: 840px;
+     }
+     .ratio1 {
+        background-color: #39bfbd;
+         width: 734px;
+     }
+     .ratio2 {
+         background-color: #39bfbd;
+         width: 420px;
+     }
+     .comments {
+         display: flex;
+         margin-left: 70px;
+     }
+}
+/* bigger than my laptop screen */
+@media screen and (min-width: 1590px) { 
+    .team-container {
+            padding-left: 130px;
+    }
+    .comments {
+        margin-left: 200px;
+    }
+}
