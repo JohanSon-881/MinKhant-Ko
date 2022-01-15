@@ -315,6 +315,12 @@ nav a {
     position: relative;
     top: 30px;
 }
+.contact img {
+    height: 400px;
+    padding-top: 9rem;
+    position: relative;
+    left: 36%;
+}
 /* small screen */
 @media screen and (max-width:660px){
     nav {
@@ -465,6 +471,9 @@ nav a {
     .team-container {
         width: 500px;
     }
+    .client-title {
+        margin-left: 30px;
+    }
 } 
 /* big screen */
 @media screen and (min-width: 660px) {
@@ -569,4 +578,9 @@ nav a {
     .comments {
         margin-left: 200px;
     }
+    .contact img {
+       position: relative;
+       left: 38%;
+    }
+   
 }
